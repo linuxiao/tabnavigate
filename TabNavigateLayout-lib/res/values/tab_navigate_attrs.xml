@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabNavigateItem">
+        <attr name="text" format="string" /> 
+        <attr name="text_color" format="color"/>  
+        <attr name="text_size" format="dimension" />          
+        <attr name="src" format="reference"/>  
+        <attr name="image_alpha" format="integer" />  
+        <attr name="image_height" format="dimension"></attr>  
+        <attr name="image_width" format="dimension" />  
+    </declare-styleable>
+    <declare-styleable name="TabNavigateLayout">
+       <attr name="selected_bg" format="reference"/>
+    </declare-styleable>
+</resources>
